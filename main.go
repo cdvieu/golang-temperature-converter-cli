@@ -25,9 +25,11 @@ func main() {
 	originUnit = strings.ToUpper(os.Args[1])
 
 	if originUnit == "C" {
-		convertToCelsius(originValue)
-	} else {
+		// convertToCelsius(originValue)
 		convertToFahrenheit(originValue)
+	} else {
+		// convertToFahrenheit(originValue)
+		convertToCelsius(originValue)
 	}
 
 	for {
